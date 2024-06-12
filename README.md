@@ -128,12 +128,3 @@ Create a Firebase project and configure Firestore and Authentication.
 [screenshot6]: src/assets/screenshots/screenshot6.png
 [screenshot7]: src/assets/screenshots/screenshot7.png
 [screenshot8]: src/assets/screenshots/screenshot8.png
-
-<img src="src/assets/screenshots/screenshot1.png" alt="Screen1" width="200" height="200">
-<img src="src/assets/screenshots/screenshot2.png" alt="Screen2" width="200" height="200">
-<img src="src/assets/screenshots/screenshot3.png" alt="Screen3" width="200" height="200">
-<img src="src/assets/screenshots/screenshot4.png" alt="Screen4" width="200" height="200">
-<img src="src/assets/screenshots/screenshot5.png" alt="Screen5" width="200" height="200">
-<img src="src/assets/screenshots/screenshot6.png" alt="Screen6" width="200" height="200">
-<img src="src/assets/screenshots/screenshot7.png" alt="Screen7" width="200" height="200">
-<img src="src/assets/screenshots/screenshot8.png" alt="Screen8" width="200" height="200">
