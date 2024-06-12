@@ -1,79 +1,130 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<a name="readme-top"></a>
 
-# Getting Started
+# Barber Reservation App
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<!-- ABOUT THE PROJECT -->
 
-## Step 1: Start the Metro Server
+## About The Project
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+![Main page Screen Shot][product-screenshot]
 
-To start Metro, run the following command from the _root_ of your React Native project:
+The Barber Reservation App is a comprehensive Android platform designed to simplify the process of booking and managing appointments with barbers. The application features a dual-user system where both clients and barbers can register, log in, and utilize a variety of functionalities tailored to their needs. The backend is powered by Firestore, ensuring a reliable and scalable database solution.
 
-```bash
-# using npm
-npm start
+<!-- BUILT WITH -->
 
-# OR using Yarn
-yarn start
+## Built With
+
+The Barber App is built using the following technologies and frameworks:
+
+- React Native
+- Node.js
+- JDK
+- Android Studio
+- TypeScript
+- Firebase
+
+## Key Features
+
+### User Registration and Login
+
+- Users can easily register an account and log in to the app.
+- Secure authentication is handled through Firebase Authentication.
+
+### Client Features
+
+- **Barber Selection:** Clients can browse through a list of registered barbers, view their profiles, and select a barber for their appointment.
+- **Appointment Booking:** Clients can book appointments by selecting a date, time, and service. The available time slots are dynamically updated based on the barber's schedule.
+- **Manage Appointments:** Clients have a dashboard where they can view all their upcoming and past appointments.
+- **Cancel Appointments:** Clients have the option to cancel their appointments directly through the app.
+
+### Barber Features
+
+- **Registration and Login:** Barbers can register their profiles and log in to access their dashboard.
+- **View Appointments:** Barbers can see all their scheduled appointments, including client details and service information.
+- **Manage Appointments:** Barbers can approve or cancel appointments based on their availability and preferences.
+- **Profile Management:** Barbers can update their profiles, including available services and working hours.
+
+## Backend and Database
+
+- **Firestore:** The database is managed using Firestore, a NoSQL database provided by Firebase, ensuring real-time data synchronization and offline capabilities.
+- **Data Security:** Firestore's robust security rules ensure that data is securely stored and accessed only by authorized users.
+
+## Additional Features
+
+- **User-Friendly Interface:** The app boasts an intuitive and user-friendly interface, making navigation and usage seamless for both clients and barbers.
+- **Responsive Design:** The application is designed to work on Android.
+- **RSS Feed Integration:** The app also features a section for the latest news and articles from the barber industry, fetched from RSS feeds.
+
+## Technical Stack
+
+- **Frontend:** React Native for a cross-platform mobile application experience.
+- **Backend:** Firebase Firestore for database management and Firebase Authentication for secure user authentication.
+- **RSS Feed Integration:** The app fetches the latest news and articles from RSS feeds.
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+### Installing
+
+To install and run react-native project on your local environment, you will need to:
+
+1. Install Node.js and npm:
+
+Download and install Node.js, which includes npm (Node.js package manager).
+
+2. Install Java Development Kit (JDK):
+
+Download and install the Java Development Kit (JDK), required for Android app development.
+
+3. Install Android Studio:
+
+Download and install Android Studio, which includes the Android SDK, emulators, and other necessary tools for Android app development.
+
+4. Set up Development Environment:
+
+Add paths to the Android SDK and other Android Studio tools to your system PATH variable.
+
+If you need more information about this part, please follow the link: https://reactnative.dev/docs/environment-setup?guide=native.
+
+5. Firebase setup
+
+Create a Firebase project and configure Firestore and Authentication.
+
+5. Clone the repository:
+
+```sh
+   git clone git@github.com:Becca1973/BarberApp.git
 ```
 
-## Step 2: Start your Application
+6. Navigate to the project directory:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+```sh
+   cd BarberApp
 ```
 
-### For iOS
+7. Start the application:
 
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+```sh
+    npx react-native run-android
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+##Screenshots
+[screenshot2]
+[screenshot3]
+[screenshot4]
+[screenshot5]
+[screenshot6]
+[screenshot7]
+[screenshot8]
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+<!-- MARKDOWN LINKS & IMAGES -->
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+[product-screenshot]: src/assets/screenshot1.png
+[screenshot2]: src/assets/screenshot2.png
+[screenshot3]: src/assets/screenshot3.png
+[screenshot4]: src/assets/screenshot4.png
+[screenshot5]: src/assets/screenshot5.png
+[screenshot6]: src/assets/screenshot6.png
+[screenshot7]: src/assets/screenshot7.png
+[screenshot8]: src/assets/screenshot8.png
