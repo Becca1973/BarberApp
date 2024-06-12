@@ -109,7 +109,8 @@ Create a Firebase project and configure Firestore and Authentication.
     npx react-native run-android
 ```
 
-##Screenshots
+## Screenshots
+
 ![Main page Screen Shot][screenshot2]
 ![Main page Screen Shot][screenshot3]
 ![Main page Screen Shot][screenshot4]
