@@ -110,13 +110,13 @@ Create a Firebase project and configure Firestore and Authentication.
 ```
 
 ##Screenshots
-[screenshot2]
-[screenshot3]
-[screenshot4]
-[screenshot5]
-[screenshot6]
-[screenshot7]
-[screenshot8]
+![Main page Screen Shot][screenshot2]
+![Main page Screen Shot][screenshot3]
+![Main page Screen Shot][screenshot4]
+![Main page Screen Shot][screenshot5]
+![Main page Screen Shot][screenshot6]
+![Main page Screen Shot][screenshot7]
+![Main page Screen Shot][screenshot8]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
