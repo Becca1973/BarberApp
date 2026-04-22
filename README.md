@@ -17,11 +17,9 @@ The Barber Reservation App is a comprehensive Android platform designed to simpl
 The Barber App is built using the following technologies and frameworks:
 
 - React Native
-- Node.js
-- JDK
-- Android Studio
 - TypeScript
 - Firebase
+- Android Studio
 
 ## Key Features
 
